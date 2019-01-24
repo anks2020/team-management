@@ -1,0 +1,53 @@
+.PlayerProfile
+{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px 30px;
+    padding: 30px 30px;
+}
+.Label{
+    font-weight: bold;
+    /* display: block; */
+    /* margin-bottom: 8px; */
+    margin: 40px 110px;
+    float:left;
+    
+}
+.addPlayerButton{
+    position: fixed !important;
+    right: -13px;
+    font-size: 30px !important;
+    bottom: 0;
+    z-index: 2 !important;
+    margin-right:42px !important;
+    margin-bottom: 42px !important ;
+    background: #2196F3 linear-gradient(180deg, #FFC107, #009688) repeat-x !important;
+}
+
+.SwipeLeftButton{
+    position: fixed !important;
+    right: 35px;
+    top: -108px;
+    right: -8px;
+    font-size: 30px !important;
+    bottom: 0;
+    z-index: 2 !important;
+    margin-right:42px !important;
+    margin-top: 242px !important ;
+    background: #2196F3 linear-gradient(180deg, #FFC107, #009688) repeat-x !important;
+}
+
+.InputElement{
+    border-radius: 14px;
+    margin: 15px 80px;
+    padding: 30px 40px;
+	    font: inherit;
+    width: 285px;
+	    display: block;
+}
+
+.InputElement:focus{
+    display: block;
+    outline: none;
+    border-color: #ccc;
+}
