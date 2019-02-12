@@ -2,10 +2,6 @@ import {
     ADD_PLAYER,
     DELETE_PLAYER,
     EDIT_PLAYER,
-    // RESUME,
-    // CHECKED_ALL_PAX,
-    // CHECKED_PAX_AI,
-   
 } from './types';
 
 export const addPlayer = (players) => {
@@ -13,8 +9,6 @@ export const addPlayer = (players) => {
     return{
         type:ADD_PLAYER,
         players:players
-        // player:newplayer
-    
     }
 };
 
