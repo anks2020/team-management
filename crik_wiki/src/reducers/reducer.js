@@ -2,10 +2,6 @@ import {
     ADD_PLAYER,
     DELETE_PLAYER,
     EDIT_PLAYER,
-    // RESUME,
-    // CHECKED_ALL_PAX,
-    // CHECKED_PAX_AI,
-   
 } from '../actions/types';
 
 const INIT_STATE = {
@@ -30,12 +26,7 @@ const INIT_STATE = {
       
       //ADD_PLAYER
             case ADD_PLAYER:
-            { console.log("ADDDDDDDDDDD reducer before adding",state.players)
-              console.log("ACTTTTTTTTTTTIOOOOOOOOONNNNNNNN ADDDDD", action.players)
-            // let new_team = [...state.players]
-            // console.log("NNNNNNNNNNNNNNN",new_team)
-            // new_team=new_team.push(action.player)
-            // console.log(new_team,"newTeam")
+            {
             return { ...state, players:action.players  };
             }
            //DELETE_PLAYER
