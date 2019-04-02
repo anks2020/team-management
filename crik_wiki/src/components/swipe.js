@@ -11,7 +11,6 @@ const Carousel = () => {
   let show=true;
   return (
     // <div>
-      
     //   <button onClick={() => {reactSwipeEl.next(); show= true }}>Next</button>
     //   <button onClick={() => reactSwipeEl.prev()}>Previous</button>
     //   <ReactSwipe
